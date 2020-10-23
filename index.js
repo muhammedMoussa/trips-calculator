@@ -92,4 +92,7 @@ fetchPlaces(trip3);
 // calcTripPrice(fetchPlaces(trip1));
 // Write Javascript code!
 const appDiv = document.getElementById("app");
-appDiv.innerHTML = `<h1>this-is-trips-calculator</h1>`;
+appDiv.innerHTML = `
+  <h1>this-is-trips-calculator</h1>
+  <span>--check the console for outpup</span>
+`;
